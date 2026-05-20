@@ -3,7 +3,7 @@
 import axios from "axios";
 
 // Base URL from environment variable
-const API_BASE_URL = "https://employee-performance-backend-n68x.onrender.com/api";
+const API_BASE_URL = "https://employee-performance-tracker-ke1j.onrender.com/api";
 const api = axios.create({
   baseURL: API_BASE_URL,
   headers: {
